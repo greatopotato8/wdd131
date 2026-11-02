@@ -7,6 +7,9 @@
     <title>WDD 131 - Dynamic Web Fundamentals - Tate Ellsworth</title>
     <meta name="description" content="My name is Tate Ellsworth and this is my personal website for WDD 131: Dynamic Web Fundamentals    "> 
     <meta name="author" content="Tate Ellsworth">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/base.css">
 </head>
@@ -27,16 +30,19 @@
             <h2>About me</h2>
             <div class="about">
                 <img src="images/head_profile.jpeg" alt="Personal photo" id="img-1">
-                <section class="card">My name is Tate Ellsworth, I was born in Arizona and currently work at an event venue, I love to write, play games, and listening to new music. I hope to learn as much as I can about IT and be able to create a career through this path.</section>
+                <div class="card">My name is Tate Ellsworth, I was born in Arizona and currently work at an event venue, I love to write, play games, and listening to new music. I hope to learn as much as I can about IT and be able to create a career through this path.</div>
             </div>
             <img src="images/arizona_state.jpg" alt="Arizona" id="img-2">
-            <h3>Arizona, United States</h2>
-            <section class="card">Arizona is the 48th state of the US with approximately 6.7 million population, it is primarily made up of desert and is best known for housing The Grand Canyon</section>
+            <h3>Arizona, United States</h3>
+            <div class="card">Arizona is the 48th state of the US with approximately 6.7 million population, it is primarily made up of desert and is best known for housing The Grand Canyon</div>
         </div>
         </main>
     <footer>
-        <p><span id = current-year>©2026 Tate Ellsworth, Arizona</span></p>
-        <p><span id="modify"> Last Modification: 11/1/26</span></p>
+        <div class="dateName">
+            <p><span id="current-year">©2026 Tate Ellsworth, Arizona</span></p>
+            <p>Last Modified: <span id="dateDisplay"></span></p>
+        </div>
+        <script src="scripts/getdates.js"></script>
     </footer>
 </body>
 </html>

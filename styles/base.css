@@ -1,16 +1,28 @@
+@import url('https://googleapis.com');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-span {background-color: steelblue;
+header, main, footer {
+    font-family: "Roboto", sans-serif;
+}
+
+span, .dateName {background-color: steelblue;
     color: white;
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
+.dateName {
+    align-items: grid;
+    grid-column: 2;
+}
+
 
 nav {
     background-color: grey;
@@ -27,6 +39,11 @@ nav a {
     font-size: 1.2 rem;
     font-weight: 700%;
     display: block;
+}
+
+nav a:hover {
+    color: #ffcc00; 
+    text-decoration: underline;
 }
 
 h1 {
@@ -62,7 +79,6 @@ main img {
 }
 
 .card {
-   
     max-width: 900px;
 }
 
@@ -75,7 +91,8 @@ padding: 10px;
 #img-2 {float: right;}
  
 #modify {
-    color: yellow;
+    color: #ffcc00;
 }
 
-footer {padding: 10px;}
+footer {padding: 10px;
+}
