@@ -44,7 +44,7 @@
         height: 3px;
         background-color: white;
         border-radius: 2px;
-        transition: 0.3 ease;
+        
     }
     
 
@@ -53,4 +53,3 @@
     }
 }
 
-@media (max-width: 768px) {
