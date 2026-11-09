@@ -18,16 +18,24 @@
 </head>
 <body>
     <header>
-        <nav>
-            <span class="nav-title">Temple Album</span>
+        <nav class="navbar">
+            <div class="logo">Temple Album</div>
 
-            <div class="nav-links">
-                <a href="temples.html">Home</a>
-                <a href="">Old</a>
-                <a href="">New</a>
-                <a href="">Large</a>
-                <a href="">Small</a>
-            </div>
+            <!-- Hamburger Toggle Button -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <!--<span class="nav-title">Temple Album</span>-->
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="temples.html">Home</a></li>
+                <li><a href="#">Old</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Large</a></li>
+                <li><a href="#">Small</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -77,8 +85,6 @@
             <p><span id="current-year">©2026 Tate Ellsworth, Arizona</span></p>
             <p>Last Modified: <span id="dateDisplay"></span></p>
         </div>
-        <script src="scripts/temples.js"></script>
     </footer>
-    
 </body>
 </html>
