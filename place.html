@@ -1,0 +1,57 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Place to visit</title>
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place-large.css">
+        <script src="scripts/place.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>Daisen, Japan</h1>
+        </header>
+        <main>
+            <div class="hero-large">
+                <img src="images/mount_daisen.jpg" alt="Japan">
+            </div>
+            
+            <div class="hero-mobile">
+                <img src="images/daisen_mobile.jpg" alt="Daisen_mobile">
+            </div>
+            </section>
+            <section class="data">
+                <h2>Data</h2>
+                <p>Area: 189.83 sq km <br>
+                    Population: 13,936 <br>
+                    Language: Japanese <br>
+                    Currency: Yen ¥ <br>
+                    Timezone: GMT+9 <br>
+                    TLD: .jp <br>
+                </p>
+            </section>
+            <section class="weather">
+                <div class="weatherTitle">
+                    <h2>Weather</h2>
+                    <img src="images/weather.webp" alt="Weather_Symbol">
+                </div>
+                <p>
+                    Temperature: 6°C<br>
+                    Conditions: Cloudy <br>
+                    Wind: 24km/h<br>
+                    <div>
+                        Wind chill: <span id="windchill"></span><br>
+                    </div>
+                </p>
+            </section>
+        </main>
+        <footer>
+            <div class="dateName">
+                <p><span id="current-year">©2026 Tate Ellsworth, Arizona</span></p>
+                <p>Last Modified: <span id="dateDisplay"></span></p>
+            </div>
+            <script src="scripts/getdates.js"></script>
+        </footer>
+    </body>
+</html>

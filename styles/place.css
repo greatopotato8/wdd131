@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+
+    .hero-mobile img {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .hero-large {
+        display: none;
+    }
+
+
+    .weather img {
+        display: none;
+    }
+
+    h2, weatherTitle {
+       text-align: center;
+    }
+
+   
+
+    .data, .weather {
+        position: static;
+        background-color: #3D59AB;
+        border-radius: 0px;
+    }
+
+
+    
+}
+
+@media (min-width: 768px) {
+  .hero-mobile {
+    display: none;
+  }
+
+  .hero-large {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
