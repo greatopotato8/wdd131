@@ -67,6 +67,6 @@ section {
     background-color: var(--secondary-color);
 }
 
-.weather img {
-    width: 50px;
-}
+/* .weather svg ::after .weather {
+    width: auto;
+} */

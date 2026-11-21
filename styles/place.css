@@ -1,7 +1,7 @@
 @media (max-width: 768px) {
 
     .hero-mobile img {
-        width: 100% !important;
+        width: 100% ;
         height: auto;
     }
 
@@ -10,7 +10,7 @@
     }
 
 
-    .weather img {
+    .weather svg {
         display: none;
     }
 
@@ -40,6 +40,17 @@
     width: 100%;
     height: auto;
   }
+
+  .weather h2::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/cloudy.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
+
 
 

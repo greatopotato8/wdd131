@@ -3,10 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" A location in Japan that I think would be a fun place to visit>
+        <meta name="author" Tate Ellsworth>
         <title>Place to visit</title>
         <link rel="stylesheet" href="styles/place.css">
         <link rel="stylesheet" href="styles/place-large.css">
         <script src="scripts/place.js" defer></script>
+        <script src="scripts/getdates.js" defer></script>
     </head>
     <body>
         <header>
@@ -18,9 +21,8 @@
             </div>
             
             <div class="hero-mobile">
-                <img src="images/daisen_mobile.jpg" alt="Daisen_mobile">
+                <img src="images/daisen-mobile.jpg" alt="Daisen_mobile">
             </div>
-            </section>
             <section class="data">
                 <h2>Data</h2>
                 <p>Area: 189.83 sq km <br>
@@ -33,8 +35,11 @@
             </section>
             <section class="weather">
                 <div class="weatherTitle">
-                    <h2>Weather</h2>
-                    <img src="images/weather.webp" alt="Weather_Symbol">
+                    <h2>Weather </h2>
+                    <!-- <img src="images/weather-icon.svg" alt="Cloudy icon" class="weather-icon"> -->
+                    <!-- <svg>
+                        <use src="images/cloudy.svg" alt="Weather_Symbol"></use>
+                    </svg> -->
                 </div>
                 <p>
                     Temperature: 6°C<br>
@@ -51,7 +56,6 @@
                 <p><span id="current-year">©2026 Tate Ellsworth, Arizona</span></p>
                 <p>Last Modified: <span id="dateDisplay"></span></p>
             </div>
-            <script src="scripts/getdates.js"></script>
         </footer>
     </body>
 </html>
